@@ -61,6 +61,7 @@ body{
     border-radius: 50%;
     width:28px;cursor: pointer;
     height: 29px;
+    padding: 5px;
 
 }
 
@@ -177,18 +178,43 @@ body{
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
-    width:37px;
+    width:29px;
     cursor: pointer;
-    height: 26px;
+    height: 29px;
     margin-left: 0px;
     padding: 4px;
 
 }
 .search button img{
-    width: 16px;
+    width: 17px;
      background-size:cover ;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.details{
+    position: relative;
+}
+.col img{
+    width: 30px;
+    margin-right: 6px;
+}
+
+.humidity , .wind{
+    font-size: 20px;
+    margin-top: -6px;
+}
+.left{
+    margin-right: 10px;
+    margin-left: 0;
+    position: absolute;
+    left: 0px;
+    /* right: 10px; */
+
+  
+}
+.right{
+    position: absolute;
+    right: 0;
 }
   }
