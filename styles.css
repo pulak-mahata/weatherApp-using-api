@@ -194,6 +194,8 @@ body{
 }
 .details{
     position: relative;
+    padding-bottom: 45px;
+    padding-top: 15px;
 }
 .col img{
     width: 30px;
